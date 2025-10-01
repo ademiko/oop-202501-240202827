@@ -167,7 +167,7 @@ Praktikum minggu ini memberikan pemahaman tentang tiga paradigma pemrograman, ya
 ---
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
+ 
 1. Apakah OOP selalu lebih baik dari prosedural?
    OOP tidak selalu lebih baik daripada prosedural, karena OOP cocok untuk aplikasi yang kompleks dan membutuhkan modularitas, sedangkan prosedural lebih sederhana dan cepat untuk program kecil.
 2. Kapan functional programming lebih cocok digunakandibanding OOP atau prosedural?
@@ -178,6 +178,7 @@ Praktikum minggu ini memberikan pemahaman tentang tiga paradigma pemrograman, ya
    OOP sangat cocok untuk mengembangkan aplikasi POS karena POS memiliki banyak entitas seperti produk, transaksi, dan pelanggan yang bisa dijadikan objek, serta memudahkan penambahan fitur baru tanpa merusak kode lama.
 5. Bagaimana paradigma fungsional dapat membantu Mengurangi kode berulang (boilerplate code)?
    Paradigma fungsional membantu mengurangi kode berulang dengan fungsi yang reusable dan pure, serta memanfaatkan higher-order functions dan composition sehingga operasi yang sama dapat dilakukan hanya dengan beberapa baris kode.
+
 
 2. [Tuliskan kembali pertanyaan 2 dari panduan]  
    **Jawaban:** …  
