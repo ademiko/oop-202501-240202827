@@ -136,13 +136,13 @@ public class helofunctional {
 ## Hasil Eksekusi
 (
 1. procedural
-![Screenshot hasil](screenshots/1. procedural.jpg)'
+![Screenshot hasil](screenshots/1.procedural.jpg)'
 
 2. OOP 
-![Screenshot hasil](screenshots/2. OOP.jpg)'
+![Screenshot hasil](screenshots/2.OOP.jpg)'
 
 3. Funcional
-![Screenshot hasil](screenshots/3. FUNCIONAL.jpg)'
+![Screenshot hasil](screenshots/3.FUNCIONAL.jpg)'
 
 )
 ---
