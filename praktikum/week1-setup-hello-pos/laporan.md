@@ -134,13 +134,13 @@ public class helofunctional {
 ## Hasil Eksekusi
 (
 1. procedural
-![Screenshot hasil](Screenshots/1.procedural.jpg)'
+![Screenshot hasil](/praktikum/week1-setup-hello-pos/Screenshot/1.%20procedural.jpg)
 
 2. OOP 
-![Screenshot hasil](Screenshots/2.OOP.jpg)'
+![Screenshot hasil](/praktikum/week1-setup-hello-pos/Screenshot/2.%20OOP.jpg)
 
 3. Funcional
-![Screenshot hasil](Screenshots/3.FUNCIONAL.jpg)'
+![Screenshot hasil](/praktikum/week1-setup-hello-pos/Screenshot/3.%20FUNCIONAL.jpg)
 
 )
 ---
