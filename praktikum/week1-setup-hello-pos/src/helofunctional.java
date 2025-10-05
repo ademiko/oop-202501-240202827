@@ -6,4 +6,4 @@ public class helofunctional {
         (nama, nim ) -> System.out.println("hallo,"+ nama + "_"+ nim);
         panggil.accept("ade miko", 240202827);
     }
-}
+} 

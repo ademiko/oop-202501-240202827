@@ -14,6 +14,7 @@ public class helloProcedural {
         System.out.println( "Hellow word, im " + nama +"-" + nim);
 
         sapa("ade miko ", "240202827");
+ 
         
     }
     
