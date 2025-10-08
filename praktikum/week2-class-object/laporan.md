@@ -129,7 +129,7 @@ public class MainProduk {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![Screenshot hasil](/praktikum/week2-class-object/screenshots/Screenshot%202025-10-08%20143729.png)
 )
 ---
 
