@@ -178,6 +178,7 @@ Praktikum minggu ini memberikan pemahaman tentang tiga paradigma pemrograman, ya
    Paradigma fungsional membantu mengurangi kode berulang dengan fungsi yang reusable dan pure, serta memanfaatkan higher-order functions dan composition sehingga operasi yang sama dapat dilakukan hanya dengan beberapa baris kode.
 
 
+
 2. [Tuliskan kembali pertanyaan 2 dari panduan]  
    **Jawaban:** …  
 
