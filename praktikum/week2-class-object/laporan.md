@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 2 (class dan object)
 Topik: [Praktikum 2: Class dan Object ]
 
 ## Identitas
