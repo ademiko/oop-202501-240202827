@@ -1,5 +1,5 @@
 # Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+Topik: [Praktikum 2: Class dan Object ]
 
 ## Identitas
 - Nama  : Ade Miko
@@ -128,7 +128,7 @@ public class MainProduk {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
+(
 ![Screenshot hasil](/praktikum/week2-class-object/screenshots/Screenshot%202025-10-08%20143729.png)
 )
 ---
