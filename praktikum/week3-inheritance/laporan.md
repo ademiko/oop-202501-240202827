@@ -1,5 +1,5 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+# Laporan Praktikum Minggu 3 (Inheritance)
+Topik: Inheritance (Kategori Produk)
 
 ## Identitas
 - Nama  : Ade Miko
@@ -167,7 +167,9 @@ public class MainInheritance {
 ---
 
 ## Kesimpulan
+(
 Dengan menggunakan konsep inheritance, class Produk dapat dimanfaatkan kembali oleh berbagai subclass tanpa perlu menduplikasi kode yang sama, sehingga lebih efisien. Subclass seperti Benih, Pupuk, dan AlatPertanian mampu menambahkan atribut khusus sesuai kebutuhan masing-masing, seperti varietas untuk benih, jenis untuk pupuk, dan material serta keterangan untuk alat pertanian. Pendekatan ini membuat program menjadi lebih terstruktur, mudah dikembangkan, dan lebih fleksibel untuk penambahan fitur atau kategori produk di masa mendatang.
+) 
 ---
 
 ## Quiz
