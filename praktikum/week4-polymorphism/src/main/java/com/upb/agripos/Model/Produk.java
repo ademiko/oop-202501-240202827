@@ -29,6 +29,10 @@ public class Produk {
         this.stok += jumlah;
     }
 
+     public void tambahStok(double jumlah) {
+        this.stok += (int) jumlah;
+    }
+
     public void kurangiStok(int jumlah) {
         if (this.stok >= jumlah) {
             this.stok -= jumlah;
@@ -36,7 +40,6 @@ public class Produk {
             System.out.println("Stok tidak mencukupi!");
         }
     }
-
     public String getInfo() {
         return "Produk: " + nama + " (Kode: " + kode + "), Harga: " + harga + ", Stok: " + stok;
     }

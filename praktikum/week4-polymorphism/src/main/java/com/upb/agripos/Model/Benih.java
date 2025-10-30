@@ -17,7 +17,6 @@ public class Benih extends Produk{
     public String getKeterangan() { return keterangan; }
      public void setKeterangan(String keterangan) { this.keterangan = keterangan; }
 
-
      public void deskripsi() {
         System.out.println("----------------------------------------------------------");
         System.out.println("Benih: " + getNama() + " | Varietas: " + varietas + " | Harga: Rp" + getHarga() + " | Stok: " + getStok() );
@@ -25,5 +24,13 @@ public class Benih extends Produk{
          System.out.println("----------------------------------------------------------");
     }
 
+
+    @Override
+    public String getInfo() {
+    return "Benih - " + super.getInfo() +
+           ", Varietas: " + varietas ;
+}
+
+   
 
 }

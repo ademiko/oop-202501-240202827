@@ -10,9 +10,11 @@ public class MainInheritance {
         Pupuk p = new Pupuk("PPK-101", "Pupuk Urea", 350000, 40, "Urea","pupuk dengan kualitas super A+++");
         AlatPertanian a = new AlatPertanian("ALT-501", "Cangkul Baja", 90000, 15, "Baja" ,"bukan sekedar cangkul biasa tapi luar biasa");
 
+        System.out.println("=== Deskripsi Produk Agripos ===");
        b.deskripsi();
         p.deskripsi();
         a.deskripsi();
+        System.out.println("======================");
 
         // Menampilkan identitas mahasiswa
         CreditBy.print("240202827", "Ade Miko");

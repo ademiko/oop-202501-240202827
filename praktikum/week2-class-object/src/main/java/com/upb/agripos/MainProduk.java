@@ -23,7 +23,7 @@ public class MainProduk {
 
         System.out.println("mengurangi stok cangkul 20");
         p3.kurangiStok(20);
-        System.out.println("Stok baru: " + p2.getStok());        
+        System.out.println("Stok baru: " + p3.getStok());        
 
 
 
