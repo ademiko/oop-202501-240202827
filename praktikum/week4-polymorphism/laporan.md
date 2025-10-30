@@ -305,11 +305,12 @@ public class MainPolymorphism {
 ---
 
 ## Kesimpulan
-(Praktikum ini berhasil menunjukkan penerapan polymorphism melalui overloading, overriding, dan dynamic binding.
+
+Praktikum ini berhasil menunjukkan penerapan polymorphism melalui overloading, overriding, dan dynamic binding.
 Setiap subclass (Benih, Pupuk, AlatPertanian) mampu menampilkan informasi yang berbeda tanpa perlu mengubah struktur class Produk.
 Dengan konsep ini, sistem Agri-POS menjadi lebih fleksibel, efisien, dan mudah diperluas untuk jenis produk baru.
-)
----
+
+
 
 ## Quiz
 (1. Apa perbedaan overloading dan overriding?
