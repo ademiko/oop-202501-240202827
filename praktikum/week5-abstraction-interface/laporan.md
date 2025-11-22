@@ -330,10 +330,10 @@ public class MainAbstraction {
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot] (/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20194928.png)
-![Sreenshot] (/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20194951.png)
-![Sreenshot] (/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20195007.png)
+![Screenshot hasil](praktikum/week5-abstraction-interface/screenshots/Screenshot 2025-11-22 194928.png)
+![Screenshot hasil](praktikum/week5-abstraction-interface/screenshots/Screenshot 2025-11-22 194951.png
+)
+![Screenshot hasil](praktikum/week5-abstraction-interface/screenshots/Screenshot 2025-11-22 195007.png
 )
 ---
 
