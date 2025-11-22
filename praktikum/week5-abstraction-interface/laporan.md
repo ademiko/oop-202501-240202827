@@ -119,7 +119,7 @@ public class Cash extends Pembayaran implements Receiptable {
 }
 ```
 ewallet
-````java 
+```java 
 package com.upb.agripos.Model.pembayaran;
 
 import com.upb.agripos.Model.kontrak.Validatable;
@@ -192,6 +192,7 @@ public class EWallet extends Pembayaran implements Validatable, Receiptable {
     }
 }
 ```
+
 pembayaran 
 ```java
 package com.upb.agripos.Model.pembayaran;
