@@ -4,7 +4,7 @@ public class helloProcedural {
     public static void sapa(String nama, String nim){
         System.out.println("Hello World I'm "+ nama + " -"+ nim);
     }
-    
+
     //tidak menggunakan method
     public static void main(String[] args) {
          
