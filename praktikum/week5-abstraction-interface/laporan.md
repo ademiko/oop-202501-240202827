@@ -332,9 +332,11 @@ public class MainAbstraction {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot] (praktikum/week5-abstraction-interface/screenshots/Screenshot 2025-11-22 194928.png)
-![Sreenshot] (/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20194951.png)
-![Sreenshot] (/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20195007.png)
+![1](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20194928.png?raw=true)
+
+![2](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20194951.png?raw=true)
+
+![3](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week5-abstraction-interface/screenshots/Screenshot%202025-11-22%20195007.png)
 )
 ---
 
