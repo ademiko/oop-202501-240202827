@@ -59,8 +59,7 @@ public class Sale {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots//praktikum/week6-uml-solid/screenshots/RLJ1Rjim3BqRy3yGEMpf8Vs0eGZgfSCmD5k2UksEWsRJYM1PyYGggp7itoVPacDxyyKK-VZu95AwDyGqsKQaYS2AW1HeVZeJb5nZGLp9D645AGrPsV1nySWCrt6HsnRrXHirUbOviGe-sfB9qmgO2MQQf8bdTQP0M6KdpJV7GmvVy9KsUxoWWBmpXCqAVgS9kEyjx9H6-AgPD2p8yNvh.png)
-)
+![Use Case Diagram](screenshots/RLJ1Rjim3BqRy3yGEMpf8Vs0eGZgfSCmD5k2UksEWsRJYM1PyYGggp7itoVPacDxyyKK-VZu95AwDyGqsKQaYS2AW1HeVZeJb5nZGLp9D645AGrPsV1nySWCrt6HsnRrXHirUbOviGe-sfB9qmgO2MQQf8bdTQP0M6KdpJV7GmvVy9KsUxoWWBmpXCqAVgS9kEyjx9H6-AgPD2p8yNvh.png)
 ---
 
 ## Analisis
