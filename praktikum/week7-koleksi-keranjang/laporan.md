@@ -118,7 +118,7 @@ public class MainCart {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![Screenshot hasil](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week7-koleksi-keranjang/screenshots/Screenshot%202026-01-09%20211024.png)
 )
 ---
 
