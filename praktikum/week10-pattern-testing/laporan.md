@@ -140,7 +140,7 @@ public class ProductTest {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![maven test](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week10-pattern-testing/screenshots/Screenshot%202026-01-15%20141411.png)
 )
 ---
 
