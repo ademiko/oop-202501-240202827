@@ -1,6 +1,9 @@
-package com.upb.agripos;
+package com.upb.agripos.week7;
 
 import java.util.ArrayList;
+
+import com.upb.agripos.model.Product;
+
 
 public class ShoppingCart {
     private final ArrayList<Product> items = new ArrayList<>();

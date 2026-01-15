@@ -1,4 +1,4 @@
-package com.upb.agripos;
+package com.upb.agripos.week7;
 
 public class MainCart {
     public static void main(String[] args) {

@@ -1,7 +1,9 @@
-package com.upb.agripos;
+package com.upb.agripos.week7;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import com.upb.agripos.model.Product;
 
 public class ShoppingCartMap {
     private final Map<Product, Integer> items = new HashMap<>();
