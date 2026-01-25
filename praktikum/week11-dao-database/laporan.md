@@ -1,10 +1,10 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 11
 Topik: Data Access Object (DAO) dan CRUD Database dengan JDBC
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Ade Miko
+- NIM   : 240202827
+- Kelas : 3IKRA
 
 ---
 
