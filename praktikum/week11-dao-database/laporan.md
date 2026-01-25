@@ -84,7 +84,7 @@ public static void main(String[] args) throws Exception {
 ```
 HASIL 
 (maven test   
-![maven test](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week10-pattern-testing/screenshots/Screenshot%202026-01-15%20141411.png)
+![maven test](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week11-dao-database/screenshots/Screenshot%202026-01-15%20141452.png)
 )
 
 ## Analisis
