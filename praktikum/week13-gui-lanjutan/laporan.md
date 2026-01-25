@@ -1,73 +1,93 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
-
+# Laporan Praktikum Minggu 13
+Topik: GUI Lanjutan JavaFX (TableView dan Lambda Expression)
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Ade miko
+- NIM   : 240202827
+- Kelas : 3IKRA
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
-
+1. Mahasiswa mampu menampilkan data secara terstruktur menggunakan komponen TableView di JavaFX.
+2. Mahasiswa dapat mengimplementasikan Lambda Expression untuk menyederhanakan penulisan event handler.
+3. Mahasiswa mampu menghubungkan GUI dengan database PostgreSQL secara penuh (CRUD) melalui layer Service dan DAO.
+4. Mahasiswa dapat merealisasikan alur "Hapus Produk" dan "Lihat Daftar" sesuai dengan desain UML Bab 6.
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
-
+1. TableView: Komponen JavaFX yang digunakan untuk menampilkan koleksi data dalam bentuk tabel (baris dan kolom) yang mendukung sinkronisasi data secara otomatis melalui ObservableList.
+2. Lambda Expression: Fitur Java yang memungkinkan penulisan fungsi anonim secara ringkas, sangat efektif digunakan untuk menangani event tombol tanpa perlu membuat inner class yang panjang.
+3. ObservableList: Jenis list khusus dalam JavaFX yang memberitahu komponen UI (seperti TableView) setiap kali ada perubahan data (tambah/hapus), sehingga tampilan otomatis diperbarui.
+4. Data Persistence: Proses sinkronisasi antara data yang terlihat di layar dengan data yang tersimpan secara permanen di database PostgreSQL menggunakan JDBC.
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+1. Refactoring UI: Mengganti komponen ListView atau TextArea dari minggu sebelumnya menjadi TableView<Product>.
+2. Konfigurasi Kolom: Menentukan kolom tabel (Code, Name, Price, Stock) dan menghubungkannya dengan atribut yang ada pada model Product.
+3. Implementasi Lambda: Mengganti semua anonymous class pada tombol Add dan Delete menggunakan sintaks lambda (e -> { ... }).
+4. Fungsi Load Data: Membuat metode loadData() yang memanggil productService.findAll() untuk menarik data terbaru dari database setiap kali aplikasi dimulai atau terjadi perubahan data.
+5. Fitur Hapus Produk: Menambahkan logika untuk mendeteksi baris mana yang dipilih pengguna di tabel, lalu menghapusnya dari database menggunakan ID/Kode Produk.
 
 ---
 
 ## Kode Program
-(Tuliskan kode utama yang dibuat, contoh:  
-
 ```java
-// Contoh
-Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
-System.out.println(p1.getNama());
+package com.upb.agripos;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import com.upb.agripos.controller.ProductController;
+import com.upb.agripos.dao.ProductDAO;
+import com.upb.agripos.dao.ProductDAOImpl;
+import com.upb.agripos.service.ProductService;
+import com.upb.agripos.view.ProductTableView;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class AppJavaFX extends Application {
+    @Override
+    public void start(Stage stage) {
+        try {
+            Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/agripos", "postgres", "1312");
+            ProductDAO dao = new ProductDAOImpl(conn);
+            ProductService service = new ProductService(dao);
+            ProductTableView view = new ProductTableView();
+            new ProductController(service, view);
+
+            stage.setScene(new Scene(view, 500, 600));
+            stage.setTitle("Agri-POS Advanced GUI");
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public static void main(String[] args) { launch(args); }
+}
 ```
 )
 ---
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![Screenshot hasil](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week13-gui-lanjutan/screenshots/Screenshot%202026-01-20%20111436.png)
 )
 ---
 
 ## Analisis
 (
-- Jelaskan bagaimana kode berjalan.  
-- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
-- Kendala yang dihadapi dan cara mengatasinya.  
-)
+- Mekanisme TableView: Penggunaan TableView jauh lebih efisien dibanding ListView karena data terpetakan langsung ke atribut objek melalui PropertyValueFactory.
+- Keunggulan Lambda: Kode menjadi lebih bersih (clean code) dan mudah dibaca. Penanganan event btnAdd dan btnDelete kini hanya membutuhkan beberapa baris kode.
+- Traceability Bab 6: Alur penghapusan data telah mengikuti Sequence Diagram di mana View mengirim permintaan ke Controller/Service, lalu Service memerintahkan DAO untuk melakukan DELETE pada database PostgreSQL.
+- Kendala: Saat data dihapus di DB, tabel terkadang tidak langsung berubah.
+- Solusi: Memastikan fungsi loadData() dipanggil kembali di akhir setiap aksi (tambah/hapus) untuk menjamin sinkronisasi data.
 ---
 
 ## Kesimpulan
-(Tuliskan kesimpulan dari praktikum minggu ini.  
-Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur dan mudah dikembangkan.*)
+(Praktikum minggu ke-13 berhasil mengintegrasikan seluruh komponen Agri-POS. Dengan TableView, aplikasi kini memiliki standar antarmuka yang profesional. Penggunaan Lambda Expression dan Service-DAO pattern memastikan aplikasi tetap mengikuti prinsip SOLID (terutama Dependency Inversion), sehingga aplikasi siap untuk tahap integrasi akhir atau UAS.*)
 
 ---
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
-   **Jawaban:** …  
-
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
-   **Jawaban:** …  
-
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
-   **Jawaban:** …  )
