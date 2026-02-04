@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AppJavaFX",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.AppJavaFX",
+            "projectName": "agri-pos-final"
+        },
+        {
+            "type": "java",
+            "name": "MainDAOTest",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.MainDAOTest",
+            "projectName": "agri-pos-week11"
+        },
+        {
+            "type": "java",
+            "name": "AppJavaFX(1)",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.AppJavaFX",
+            "projectName": "agri-pos-week12"
+        },
+        {
+            "type": "java",
+            "name": "AppJavaFX(2)",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.AppJavaFX",
+            "projectName": "agri-pos-week13"
+        },
+        {
+            "type": "java",
+            "name": "AppJavaFX(3)",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.AppJavaFX",
+            "projectName": "agripos"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.upb.agripos.Main",
+            "projectName": "agripos"
+        }
+    ]
+}

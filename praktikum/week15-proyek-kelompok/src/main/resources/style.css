@@ -1,0 +1,41 @@
+/* Palet Warna Hijau Pertanian */
+.root {
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #ffffff;
+}
+
+/* Kotak Input (Username & Password) */
+.text-field, .password-field {
+    -fx-background-color: #f0f2f5;
+    -fx-background-radius: 5;
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 5;
+    -fx-padding: 8;
+}
+
+.text-field:focused {
+    -fx-border-color: #2ecc71;
+    -fx-background-color: white;
+}
+
+/* Tombol Login yang 'Glow' */
+.button {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+}
+
+.button:hover {
+    -fx-background-color: #2ecc71;
+    -fx-effect: dropshadow(three-pass-box, rgba(46, 204, 113, 0.4), 10, 0, 0, 0);
+}
+
+/* Label & Judul */
+.label {
+    -fx-text-fill: #2f3640;
+    -fx-font-size: 13px;
+}
