@@ -1,10 +1,10 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 11
 Topik: Data Access Object (DAO) dan CRUD Database dengan JDBC
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Ade Miko
+- NIM   : 240202827
+- Kelas : 3IKRA
 
 ---
 
@@ -82,6 +82,10 @@ public static void main(String[] args) throws Exception {
     conn.close();
 }
 ```
+HASIL 
+(maven test   
+![maven test](https://github.com/ademiko/oop-202501-240202827/blob/main/praktikum/week11-dao-database/screenshots/Screenshot%202026-01-15%20141452.png)
+)
 
 ## Analisis
 (

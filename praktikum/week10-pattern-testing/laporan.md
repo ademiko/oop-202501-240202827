@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 10
 Topik: Design Pattern (MVC) & Software Testing
 
 ## Identitas
