@@ -1,9 +1,9 @@
 # Laporan Praktikum Minggu 15
 Topik: Proyek Kelompok (Desain Sistem + Implementasi Terintegrasi + Testing + Dokumentasi)
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Ade Miko
+- NIM   : 240202827
+- Kelas : 3IKRA
 
 ---
 
